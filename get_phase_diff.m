@@ -3,7 +3,7 @@
 
 function [phase_diff] = get_phase_diff(signal1, signal2, freq, srate)
 
-% curr_plv computes the phase differences between the two time series
+% phase_diff computes the phase differences between the two time series
 %
 % Inputs : 
 %     signal1: a vector representing one time series (e.g. EEG from one electrode)
