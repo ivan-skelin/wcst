@@ -30,6 +30,6 @@ filt_signal1 = filtfilt(A, B, signal1);
 
 angle_signal1 = angle(hilbert(filt_signal1));
 
-phase_diff = (exp(1i *(angle_signal1 - angle_signal1)));   %phase difference is in the brackets
+phase_diff = (exp(1i *(angle_signal1 - angle_signal1)));  
 
 
